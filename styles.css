@@ -1,4 +1,50 @@
-h1{
-    width: auto;
-    color: blue;
+.c{
+    color: orange;
+    
 }
+.nav{
+    display: flex;
+   flex-direction: row;
+   
+}
+.brand input{
+    height: 50px;
+    width: 550px;
+    border-radius: 50px;
+}
+.brand {
+    display: flex;
+    flex-direction: row ;
+}
+.brand-img{
+   height: 70px;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-bottom:0px ;
+}
+ul li{
+    margin: 5px;
+
+}
+.lb{
+   border: 1px solid black;
+   background-color: transparent;
+   padding-left: 10px;
+   padding-right: 10px;
+   
+  
+}
+.sb{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+ }
+ 
